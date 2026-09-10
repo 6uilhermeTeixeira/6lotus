@@ -3,92 +3,107 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#07100d">
-    <meta name="description" content="Desenvolvimento de Expert Advisor sob medida para MetaTrader 5, com backtest, gestão de risco e operação monitorada em VPS.">
-    <title>Expert Advisor sob medida | Geometricus</title>
+    <meta name="theme-color" content="#05080d">
+    <meta name="description" content="2Lotus: pesquisa quantitativa, validação histórica auditável e execução operacional protegida para MetaTrader 5.">
+    <title>2Lotus | Pesquisa, validação e execução protegida</title>
+    <link rel="icon" type="image/png" href="/assets/lotus-icon.png">
+    <link rel="apple-touch-icon" href="/assets/lotus-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/responsive.css">
+    <link rel="stylesheet" href="/styles.css?v=3">
+    <link rel="stylesheet" href="/responsive.css?v=3">
   </head>
   <body>
     <header class="header">
-      <a class="brand" href="#inicio" aria-label="Expert Advisor Geometricus — início">
-        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span>GEOMETRICUS <small>EXPERT ADVISOR</small></span>
-      </a>
-      <nav aria-label="Navegação principal">
-        <a href="#como-funciona">Como funciona</a><a href="#seguranca">Controles</a><a href="#faq">Dúvidas</a>
-      </nav>
-      <a class="button button-small" href="#diagnostico">Avaliar estratégia</a>
+      <a class="brand" href="#inicio" aria-label="2Lotus — início"><img src="/assets/lotus-icon.png" alt=""><span>2LOTUS <small>TRADING INTELLIGENCE</small></span></a>
+      <nav aria-label="Navegação principal"><a href="#plataforma">Plataforma</a><a href="#evidencias">Evidências</a><a href="#seguranca">Segurança</a><a href="#faq">Metodologia</a></nav>
+      <a class="button button-small" href="#contato">Conhecer a plataforma</a>
     </header>
 
     <main>
       <section class="hero section" id="inicio">
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span> Expert Advisor para MetaTrader 5</p>
-          <h1>Sua estratégia.<br><em>Executada sem improviso.</em></h1>
-          <p class="hero-lead">Transformamos regras operacionais em um robô de trading sob medida, com gestão de risco, validação por etapas e execução monitorada em VPS.</p>
-          <div class="hero-actions"><a class="button" href="#diagnostico">Solicitar diagnóstico</a><a class="text-link" href="#como-funciona">Conhecer o processo <span>↘</span></a></div>
-          <div class="hero-notes"><span>MetaTrader 5 + MQL5</span><span>Backtest e forward test</span><span>VPS monitorada</span></div>
+          <p class="eyebrow"><span></span> RESEARCH WORKSPACE + LIVE CORE</p>
+          <h1>Prove primeiro.<br><em>Execute depois.</em></h1>
+          <p class="hero-lead">Uma estrutura completa para transformar hipóteses quantitativas em sistemas monitorados: dados históricos, replay reproduzível, promoção controlada e execução fail-closed.</p>
+          <div class="hero-actions"><a class="button" href="#evidencias">Ver evidências do backtest</a><a class="text-link" href="#plataforma">Explorar arquitetura <span>↘</span></a></div>
+          <div class="hero-notes"><span>Dados XAUUSD</span><span>Risco normalizado</span><span>Auditoria ponta a ponta</span></div>
         </div>
-        <div class="terminal reveal" role="img" aria-label="Representação visual do monitoramento do Expert Advisor">
-          <div class="terminal-bar"><span>EA / MONITOR</span><div><i></i><i></i><i></i></div></div>
-          <div class="terminal-status"><span class="live-dot"></span><strong>ESTRATÉGIA ATIVA</strong><small>MERCADO ABERTO</small></div>
-          <div class="chart" aria-hidden="true"><svg viewBox="0 0 600 210" preserveAspectRatio="none"><defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#61f2ae" stop-opacity=".28"/><stop offset="1" stop-color="#61f2ae" stop-opacity="0"/></linearGradient></defs><path class="area" d="M0 170 L40 157 L75 164 L110 125 L145 140 L180 92 L215 111 L250 78 L285 95 L320 55 L355 71 L390 42 L425 63 L460 36 L500 52 L540 20 L600 31 L600 210 L0 210Z"/><path class="line" d="M0 170 L40 157 L75 164 L110 125 L145 140 L180 92 L215 111 L250 78 L285 95 L320 55 L355 71 L390 42 L425 63 L460 36 L500 52 L540 20 L600 31"/></svg></div>
-          <div class="metrics"><div><small>RISCO / ORDEM</small><strong>Configurável</strong></div><div><small>PERDA DIÁRIA</small><strong>Limitada</strong></div><div><small>EXECUÇÃO</small><strong>Automática</strong></div></div>
-          <p class="terminal-caption">Ilustração de interface. Não representa resultado financeiro real.</p>
-        </div>
-      </section>
 
-      <section class="proof-strip" aria-label="Princípios do produto"><span>01 / REGRAS OBJETIVAS</span><span>02 / RISCO PARAMETRIZADO</span><span>03 / DECISÕES REGISTRADAS</span><span>04 / CONTROLE HUMANO</span></section>
-
-      <section class="section intro" id="como-funciona">
-        <div class="section-label">// DA TESE À EXECUÇÃO</div>
-        <div class="intro-heading"><h2>Automatizar não é adivinhar o mercado.</h2><p>É executar uma estratégia definida com consistência, registrar cada decisão e respeitar limites mesmo quando a emoção pedir o contrário.</p></div>
-        <div class="process-grid">
-          <article><span>01</span><h3>Mapeamento</h3><p>Documentamos ativo, timeframe, sinais, filtros, horários, entradas, saídas e exceções.</p></article>
-          <article><span>02</span><h3>Desenvolvimento</h3><p>Implementamos o EA em MQL5 com parâmetros ajustáveis e código organizado para evolução.</p></article>
-          <article><span>03</span><h3>Validação</h3><p>Executamos backtest e forward test considerando spread, slippage, custos e diferentes cenários.</p></article>
-          <article><span>04</span><h3>Operação</h3><p>Instalamos em VPS, configuramos telemetria e entregamos rotinas claras de acompanhamento.</p></article>
+        <div class="terminal reveal" aria-label="Curvas reais de três linhas de validação histórica">
+          <div class="terminal-bar"><span>RESEARCH / 3-YEAR REPLAY</span><div><i></i><i></i><i></i></div></div>
+          <div class="terminal-status"><span class="live-dot"></span><strong>BACKTEST PROCESSADO</strong><small>1% RISK / TRADE</small></div>
+          <div class="chart-shell">
+            <svg id="equity-chart" viewBox="0 0 760 330" role="img" aria-labelledby="chart-title chart-description">
+              <title id="chart-title">Evolução do patrimônio em três linhas de validação</title><desc id="chart-description">Curvas calculadas a partir dos resultados diários reais dos backtests de três anos.</desc>
+              <g id="chart-grid"></g><g id="chart-lines"></g><line id="chart-pointer" class="chart-pointer" y1="20" y2="290" hidden></line><g id="chart-axis"></g>
+            </svg>
+            <div class="chart-tooltip" id="chart-tooltip" hidden></div>
+          </div>
+          <div class="chart-legend" id="chart-legend" aria-label="Legenda do gráfico"></div>
+          <div class="metrics"><div><small>MELHOR SALDO FINAL</small><strong id="best-equity">Carregando</strong></div><div><small>PERÍODO</small><strong>3 anos</strong></div><div><small>AMOSTRA</small><strong>196.479 candles</strong></div></div>
+          <p class="terminal-caption">Curvas reais do replay histórico normalizado. Capital inicial de US$ 10.000. Não representam operações executadas nem promessa de retorno futuro.</p>
         </div>
       </section>
 
-      <section class="section controls" id="seguranca">
-        <div class="controls-copy"><div class="section-label">// CAMADAS DE PROTEÇÃO</div><h2>O robô sabe quando operar.<br>E quando parar.</h2><p>Os controles são definidos antes da primeira ordem. Você decide os limites; o sistema garante sua aplicação mecânica.</p><a class="text-link" href="#diagnostico">Desenhar meus controles <span>→</span></a></div>
-        <div class="control-list">
-          <article><span>MAX LOSS</span><div><h3>Limite de perda diária</h3><p>Bloqueia novas entradas após atingir o valor ou percentual estabelecido.</p></div><b>01</b></article>
-          <article><span>POSITION</span><div><h3>Dimensionamento de posição</h3><p>Lote fixo ou calculado conforme capital e risco máximo por operação.</p></div><b>02</b></article>
-          <article><span>FAILSAFE</span><div><h3>Kill switch</h3><p>Interrupção manual ou automática diante de eventos e condições definidas.</p></div><b>03</b></article>
-          <article><span>TRACE</span><div><h3>Logs e monitoramento</h3><p>Registro de sinais, ordens, rejeições e falhas para análise posterior.</p></div><b>04</b></article>
+      <section class="proof-strip" aria-label="Pilares da plataforma"><span>01 / DADOS VERSIONADOS</span><span>02 / REPLAY CAUSAL</span><span>03 / PROMOÇÃO CONTROLADA</span><span>04 / LIVE FAIL-CLOSED</span></section>
+
+      <section class="section platform" id="plataforma">
+        <div class="section-heading reveal"><div><p class="section-label">// UMA PLATAFORMA, DOIS AMBIENTES</p><h2>Pesquisa e operação não dividem o mesmo risco.</h2></div><p>O que nasce como hipótese permanece isolado até acumular evidência suficiente. A passagem ao ambiente operacional exige artefato versionado, controles válidos e aprovação explícita.</p></div>
+        <div class="workspace-flow reveal">
+          <article class="workspace-card research-card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M7 15l3-4 3 2 5-7"/></svg></div><p class="workspace-kicker">RESEARCH WORKSPACE</p><h3>Investigar com rastreabilidade.</h3>
+            <ul><li>Histórico local versionado</li><li>Backtests por período</li><li>Risco comparável em 1%</li><li>Curvas e operações auditáveis</li></ul><span class="workspace-status"><i></i> Ambiente de pesquisa</span>
+          </article>
+          <div class="promotion-gate"><span>VALIDATION GATE</span><div class="gate-line"><i></i></div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.6-2.8 8.2-7 10-4.2-1.8-7-5.4-7-10V6l7-3z"/><path d="M9 12l2 2 4-5"/></svg><small>Versão · evidência<br>aprovação · limites</small></div>
+          <article class="workspace-card live-card">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h4l2-6 4 12 2-6h4"/></svg></div><p class="workspace-kicker">LIVE CORE</p><h3>Operar com proteção.</h3>
+            <ul><li>Saúde operacional contínua</li><li>Telemetria e histórico</li><li>Canário independente</li><li>Bloqueio automático por padrão</li></ul><span class="workspace-status protected"><i></i> Execução protegida</span>
+          </article>
         </div>
       </section>
 
-      <section class="section fit">
-        <div><div class="section-label">// PARA QUEM É</div><h2>Uma boa automação começa com uma regra clara.</h2></div>
-        <div class="fit-columns"><article class="yes"><h3>Faz sentido se você...</h3><ul><li>Já possui uma estratégia com critérios objetivos</li><li>Quer reduzir interferência emocional na execução</li><li>Precisa testar hipóteses com dados históricos</li><li>Aceita validar em conta demo antes da conta real</li></ul></article><article class="no"><h3>Não é o produto certo se você...</h3><ul><li>Procura lucro garantido ou renda passiva sem risco</li><li>Espera que o robô descubra sozinho uma estratégia</li><li>Não aceita períodos de perda e drawdown</li><li>Quer operar sem acompanhamento ou limites</li></ul></article></div>
+      <section class="section evidence" id="evidencias">
+        <div class="evidence-heading reveal"><div><p class="section-label">// EVIDÊNCIA, NÃO PROMESSA</p><h2>Três linhas. O histórico inteiro.</h2></div><div class="dataset-stamp"><span>XAUUSD · M5</span><strong>03 SET 2023 — 02 SET 2026</strong><small>Capital inicial: US$ 10.000 · 1% de risco por entrada</small></div></div>
+        <p class="evidence-intro reveal">Apresentamos inclusive a linha que não passou pelos critérios. Resultado negativo também é evidência — e é exatamente por isso que pesquisa e execução precisam estar separadas.</p>
+        <div class="result-grid" id="result-grid"><p class="loading">Carregando provas do backtest...</p></div>
+        <div class="audit-panel reveal">
+          <div class="audit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11l3 3v15H5z"/><path d="M8 10h8M8 14h8M8 18h5M15 3v4h4"/></svg></div>
+          <div><p class="section-label">// COMO LER ESTES NÚMEROS</p><h3>Replay histórico normalizado e causal</h3><p>Cada decisão usa somente informações disponíveis naquele instante. As três linhas percorrem a mesma janela de dados e o mesmo capital inicial; o tamanho de cada entrada é recalculado para arriscar 1% do patrimônio disponível.</p></div>
+          <dl><div><dt>Candles avaliados</dt><dd>196.479</dd></div><div><dt>Janelas mensais</dt><dd>37</dd></div><div><dt>Ordens reais</dt><dd>0</dd></div></dl>
+        </div>
+      </section>
+
+      <section class="section safety" id="seguranca">
+        <div class="safety-copy reveal"><p class="section-label">// SEGURANÇA OPERACIONAL</p><h2>O caminho para o live permanece fechado até tudo estar certo.</h2><p>O Live Core não transforma um bom gráfico em autorização. A execução depende de chaves independentes, conta permitida, lote máximo, spread, persistência e disponibilidade operacional.</p></div>
+        <div class="safety-grid reveal">
+          <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.6-2.8 8.2-7 10-4.2-1.8-7-5.4-7-10V6l7-3z"/></svg><span>01</span><h3>Fail-closed</h3><p>Na dúvida, nenhuma ordem é liberada.</p></article>
+          <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h4l2-6 4 12 2-6h4"/></svg><span>02</span><h3>Observabilidade</h3><p>Saúde, latência e decisões ficam visíveis.</p></article>
+          <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v16H6zM9 8h6M9 12h6M9 16h4"/></svg><span>03</span><h3>Rastro auditável</h3><p>Versões, sinais e respostas são registrados.</p></article>
+          <article><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M5 6h14M5 18h14"/></svg><span>04</span><h3>Limites objetivos</h3><p>Risco, lote e exposição são definidos antes.</p></article>
+        </div>
       </section>
 
       <section class="section faq" id="faq">
-        <div><div class="section-label">// PERGUNTAS FREQUENTES</div><h2>Antes de colocar<br>o robô para operar.</h2></div>
+        <div><p class="section-label">// TRANSPARÊNCIA</p><h2>O que estes resultados significam.</h2></div>
         <div class="accordion">
-          <details open><summary>O Expert Advisor garante lucro?<span>+</span></summary><p>Não. Nenhum sistema sério pode garantir resultado financeiro. O EA garante apenas a execução das regras programadas. Mercado, liquidez, custos e eventos podem produzir perdas.</p></details>
-          <details><summary>O robô funciona 24 horas por dia?<span>+</span></summary><p>A VPS mantém o terminal disponível continuamente, mas o EA opera somente nos mercados, ativos e horários definidos na estratégia.</p></details>
-          <details><summary>Vocês fornecem a estratégia?<span>+</span></summary><p>O ponto de partida é uma estratégia ou hipótese fornecida pelo cliente. A Geometricus estrutura as regras, desenvolve o software e apoia a validação técnica.</p></details>
-          <details><summary>Posso começar diretamente em conta real?<span>+</span></summary><p>Recomendamos validar primeiro com dados históricos e depois em conta demonstrativa. A decisão de usar capital real é do cliente e deve considerar orientação profissional adequada.</p></details>
-          <details><summary>O código pode evoluir depois da entrega?<span>+</span></summary><p>Sim. A arquitetura prevê parâmetros configuráveis e ciclos de melhoria com base nos dados observados durante a validação.</p></details>
+          <details open><summary>É uma previsão de lucro futuro?<span>+</span></summary><p>Não. É o resultado de uma simulação histórica sob premissas específicas. Mercado, execução, liquidez, custos e comportamento futuro podem ser diferentes.</p></details>
+          <details><summary>Por que mostrar uma linha com resultado negativo?<span>+</span></summary><p>Porque uma plataforma de pesquisa precisa rejeitar hipóteses, não esconder resultados. A comparação completa reduz viés de seleção e torna a evidência mais honesta.</p></details>
+          <details><summary>O gráfico usa dados inventados para ilustração?<span>+</span></summary><p>Não. Cada ponto vem do PnL diário armazenado nos artefatos de backtest do Research Workspace. Os rótulos são anônimos para preservar a propriedade intelectual.</p></details>
+          <details><summary>Um backtest aprovado entra automaticamente em conta real?<span>+</span></summary><p>Não. O Live Core permanece bloqueado por padrão. Promoção, forward test e autorização operacional são etapas separadas.</p></details>
         </div>
       </section>
 
-      <section class="section cta" id="diagnostico">
-        <div class="cta-noise"></div><div class="section-label">// PRIMEIRO PASSO</div><h2>Vamos descobrir se sua estratégia<br>está pronta para virar código.</h2><p>Conte como você opera hoje. A Geometricus avalia a clareza das regras, os riscos e o melhor caminho para construir o primeiro protótipo.</p><a class="button" href="https://geometricus.vercel.app/#contato" rel="noreferrer">Solicitar diagnóstico da estratégia <span>↗</span></a><small>Sem promessa de retorno. Sem operação real antes da validação.</small>
+      <section class="section cta" id="contato">
+        <div class="cta-mark"><img src="/assets/lotus-icon.png" alt=""></div><p class="section-label">// ENGENHARIA QUANTITATIVA APLICADA</p><h2>Da evidência histórica<br>à execução responsável.</h2>
+        <p>Conheça uma plataforma construída para pesquisar, comparar, promover e monitorar sistemas quantitativos sem misturar experimento com capital real.</p><a class="button" href="https://geometricus.vercel.app/#contato" rel="noreferrer">Falar com a equipe <span>↗</span></a><small>Sem promessa de retorno. Sem operação real antes da validação.</small>
       </section>
 
-      <aside class="risk-notice"><strong>Aviso de risco</strong><p>Operações nos mercados financeiros envolvem risco substancial, inclusive perda integral do capital. Backtests, simulações e resultados passados não garantem desempenho futuro. A Geometricus desenvolve tecnologia e não presta recomendação de investimento, gestão de recursos ou promessa de rentabilidade.</p></aside>
+      <aside class="risk-notice"><strong>Aviso de risco</strong><p>Operações nos mercados financeiros envolvem risco substancial, inclusive perda integral do capital. Backtests, simulações e resultados passados não garantem desempenho futuro. Os valores apresentados são resultados históricos simulados, não rentabilidade esperada ou recomendação de investimento.</p></aside>
     </main>
 
-    <footer><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>GEOMETRICUS</span></a><p>Engenharia aplicada a operações que precisam funcionar.</p><span>© <span id="year"></span> Geometricus</span></footer>
-    <script src="/script.js"></script>
+    <footer><a class="brand" href="#inicio"><img src="/assets/lotus-icon.png" alt=""><span>2LOTUS</span></a><p>Research Workspace → Validation Gate → Live Core</p><span>© <span id="year"></span> · Tecnologia Geometricus</span></footer>
+    <script src="/script.js?v=2"></script>
   </body>
 </html>

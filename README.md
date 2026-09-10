@@ -1,10 +1,12 @@
-# Expert Advisor Geometricus
+# Institucional 2Lotus
 
-Landing page comercial independente para o serviço de desenvolvimento de Expert Advisors sob medida da Geometricus.
+Site institucional independente do ecossistema 2Lotus, apresentando o laboratório de pesquisa e o
+Live Core protegido sem participar da coleta, decisão ou execução operacional.
 
 ## Proposta
 
-O produto converte estratégias objetivas em automações para MetaTrader 5/MQL5, com validação por backtest e forward test, controles de risco, logs e operação monitorada em VPS.
+O site explica a separação entre pesquisa, promoção controlada e operação protegida, além de exibir
+evidências estáticas versionadas de backtest.
 
 Não há promessa de rentabilidade. A comunicação do produto enfatiza disciplina de execução, validação e controle humano.
 
@@ -21,4 +23,7 @@ npx serve .
 - `index.html`: conteúdo, SEO e estrutura da página
 - `styles.css`: direção visual e responsividade
 - `script.js`: interações progressivas
+- `server.py`: servidor local com fallback de rotas para a landing page
+- `assets/`: identidade visual versionada
+- `data/backtest-proof.json`: evidência estática consumida pela página
 - `vercel.json`: configuração do deploy
