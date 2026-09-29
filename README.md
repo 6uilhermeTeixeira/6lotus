@@ -1,6 +1,6 @@
-# Institucional 2Lotus
+# 6lotus — Institucional Lotus
 
-Site institucional independente do ecossistema 2Lotus, apresentando o laboratório de pesquisa e o
+Site institucional independente do ecossistema Lotus, apresentando o laboratório de pesquisa e o
 Live Core protegido sem participar da coleta, decisão ou execução operacional.
 
 ## Proposta
@@ -15,7 +15,7 @@ Não há promessa de rentabilidade. A comunicação do produto enfatiza discipli
 O projeto é estático e não requer build. Abra `index.html` com um servidor HTTP local:
 
 ```bash
-npx serve .
+python3 server.py
 ```
 
 ## Estrutura

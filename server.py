@@ -35,4 +35,6 @@ class LandingPageHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    ThreadingHTTPServer(("127.0.0.1", 1113), LandingPageHandler).serve_forever()
+    host = os.getenv("SIX_LOTUS_HOST", "127.0.0.1")
+    port = int(os.getenv("SIX_LOTUS_PORT", "7776"))
+    ThreadingHTTPServer((host, port), LandingPageHandler).serve_forever()
